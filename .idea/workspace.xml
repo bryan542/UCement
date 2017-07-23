@@ -1,144 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9135e0d7-f8a0-405f-88bb-eb3198bdd69d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/AboutDialog$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/AboutDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/AddNewComponentRow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/AddRow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CSVDatabaseExporter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CSVDatabaseReader.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CSVUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ComboBoxEditor.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ComboBoxRenderer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DatabaseComboBoxPopulator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DropDownMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DropDownMenu$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DropDownMenu$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DropDownMenu$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DropDownMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DryComponentAdder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ExcelAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/FilePathLocationRetriever.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ImageResize.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/InitialJTableComboBoxSetup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/LiquidComponentAdder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$10.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$11.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$12.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$13.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$14.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$16.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$17.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$18.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$19.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$20.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$21.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$23.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$24.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$25.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$26.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$27.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$28.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$29.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ResourceFilePathRetriever.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaveFilePathLocation.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/TableCellListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/TableDialogSetup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/TableSetup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Images/PES Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Images/UCement Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/AbstractLayout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/DimensionInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/GridConstraints.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/GridLayoutManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/HorizontalInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/LayoutState.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/Spacer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/SupportCode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/Util.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/com/intellij/uiDesigner/core/VerticalInfo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Images/PES Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Images/UCement Logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/UCementProgram.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/cement test database.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/AboutDialog.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/AboutDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/AddNewComponentRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/AddRow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/CSVDatabaseExporter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/CSVDatabaseReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/CSVUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/CementComponentAdder.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/CementComponentAdder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/ComboBoxEditor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/ComboBoxRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/DropDownMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/DryComponentAdder.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/DryComponentAdder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/ExcelAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/FilePathLocationRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/ImageResize.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/InitialJTableComboBoxSetup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/ResourceFilePathRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/SaltComponentAdder.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/SaltComponentAdder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/SaveFilePathLocation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/TableCellListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/TableDialogSetup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/TableSetup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/cement test database.csv" />
-    </list>
+    <list default="true" id="9135e0d7-f8a0-405f-88bb-eb3198bdd69d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -179,8 +42,8 @@
       <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="566" column="0" lean-forward="true" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="585" column="0" lean-forward="true" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -959,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="566" column="0" lean-forward="true" selection-start-line="566" selection-start-column="0" selection-end-line="566" selection-end-column="0" />
+        <state relative-caret-position="425">
+          <caret line="585" column="0" lean-forward="true" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
           <folding />
         </state>
       </provider>
