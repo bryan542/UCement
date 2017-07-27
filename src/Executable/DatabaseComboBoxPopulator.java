@@ -70,6 +70,14 @@ public class DatabaseComboBoxPopulator {
                 table.setValueAt(combobox,i,1);
 
             }
+
+            String[] saltUnitOfMeasurementValues = {"NaCl","KCl"};
+            JComboBox saltComboBox = new JComboBox(saltUnitOfMeasurementValues);
+            TableColumn th = table.getColumnModel().getColumn(2);
+            th.setCellEditor(new DefaultCellEditor(saltComboBox));
+            DefaultTableCellRenderer renderer =
+                    new DefaultTableCellRenderer();
+            th.setCellRenderer(renderer);
         }
         else if( componentTypeRetriever.equalsIgnoreCase("Dry Addative")){
 
@@ -93,6 +101,14 @@ public class DatabaseComboBoxPopulator {
                 table.setValueAt(combobox,i,1);
 
             }
+
+            String[] dryUnitOfMeasurementValues = {"%BWOC","LBS/Sack","%BWOW"};
+            JComboBox dryComboBox = new JComboBox(dryUnitOfMeasurementValues);
+            TableColumn th = table.getColumnModel().getColumn(3);
+            th.setCellEditor(new DefaultCellEditor(dryComboBox));
+            DefaultTableCellRenderer renderer =
+                    new DefaultTableCellRenderer();
+            th.setCellRenderer(renderer);
         }
 
         else if( componentTypeRetriever.equalsIgnoreCase("Liquid")){
@@ -132,7 +148,24 @@ public class DatabaseComboBoxPopulator {
             table.setValueAt("Select "+componentTypeRetriever,i,1);
 
         }
+        if( componentTypeRetriever.equalsIgnoreCase("Dry Addative")){
+
+            for(int i = 0;i<table.getRowCount();i++){
+
+                table.setValueAt("%BWOC",i,3);
+
+            }
+        }
+        else if( componentTypeRetriever.equalsIgnoreCase("Salt")){
+
+            for(int i = 0;i<table.getRowCount();i++){
+
+                table.setValueAt("NaCl",i,2);
+
+            }
+        }
     }
+
 
     //Double checks for duplicate values imported
     boolean duplicateChecker(JComboBox originalCombobox, String name) {

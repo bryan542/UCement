@@ -27,5 +27,14 @@ public class AddRow {
         DefaultTableModel model = (DefaultTableModel) table.getModel();
         model.addRow(columnValueSet);
         table.setValueAt("Select "+componentParameter,table.getRowCount()-1,1); //Sets the default select row prompt
+
+        if(componentParameter.equalsIgnoreCase("Dry Addative")){
+
+            table.setValueAt("%BWOC",table.getRowCount()-1,3);
+        }
+        if(componentParameter.equalsIgnoreCase("Salt")){
+
+            table.setValueAt("NaCl",table.getRowCount()-1,2);
+        }
     }
 }

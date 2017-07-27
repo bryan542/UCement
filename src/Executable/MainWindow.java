@@ -623,6 +623,15 @@ public class MainWindow extends JFrame {
         //updates the other dry cells when the combobox item in that row is selected
         TableCellListener tclLiquid = new TableCellListener(liquidComponentsJTable,liquidAction);
 
+        calculateButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                SlurryCalculations sc = new SlurryCalculations();
+
+                sc.totalDryWeightYield(cementComponentsJTable,dryComponentsJTable,MainWindow.this);
+            }
+        });
     }
 
 
