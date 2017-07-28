@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9135e0d7-f8a0-405f-88bb-eb3198bdd69d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DatabaseComboBoxPopulator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/AddRow.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/AddRow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/AddRow.java" afterPath="$PROJECT_DIR$/src/Executable/AddRow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" afterPath="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java" afterPath="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/MainWindow.form" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/MainWindow.java" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" afterPath="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,18 +31,19 @@
       <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="476" column="121" lean-forward="true" selection-start-line="476" selection-start-column="121" selection-end-line="476" selection-end-column="121" />
-              <folding>
-                <element signature="e#8855#10173#0" expanded="true" />
-                <element signature="e#10172#10173#0" expanded="true" />
-                <element signature="e#14203#15568#0" expanded="true" />
-                <element signature="e#15567#15568#0" expanded="true" />
-                <element signature="e#19652#20834#0" expanded="true" />
-                <element signature="e#20833#20834#0" expanded="true" />
-                <element signature="e#25044#26259#0" expanded="true" />
-                <element signature="e#26258#26259#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3160">
+              <caret line="626" column="0" lean-forward="false" selection-start-line="626" selection-start-column="0" selection-end-line="626" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LiquidComponentAdder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="28" column="112" lean-forward="true" selection-start-line="28" selection-start-column="112" selection-end-line="28" selection-end-column="112" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,8 +51,8 @@
       <file leaf-file-name="DatabaseComboBoxPopulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+            <state relative-caret-position="523">
+              <caret line="180" column="49" lean-forward="true" selection-start-line="180" selection-start-column="49" selection-end-line="180" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -55,9 +61,21 @@
       <file leaf-file-name="AddRow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Executable/AddRow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="442">
+              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlurryCalculations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Executable/SlurryCalculations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="219" column="45" lean-forward="false" selection-start-line="219" selection-start-column="45" selection-end-line="219" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,21 +84,6 @@
         <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.form">
           <provider selected="true" editor-type-id="ui-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SlurryCalculations.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Executable/SlurryCalculations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#totalLiquidWeightYield#0;class#SlurryCalculations#0" expanded="false" />
-                <element signature="method#totalGallonsDryYield#0;class#SlurryCalculations#0" expanded="false" />
-                <element signature="method#totalGallonsLiquidYield#0;class#SlurryCalculations#0" expanded="false" />
-              </folding>
-            </state>
           </provider>
         </entry>
       </file>
@@ -95,14 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>columnse</find>
-      <find>aboutdia</find>
-      <find>addrow</find>
-      <find>columnsett</find>
-      <find>cell</find>
-      <find>select cell</find>
-      <find>getcement</find>
-      <find>columnSettings</find>
       <find>initialize</find>
       <find>select</find>
       <find>liquid addative</find>
@@ -125,9 +120,19 @@
       <find>true</find>
       <find>calculateBu</find>
       <find>bwoc</find>
+      <find>gal/lbs</find>
+      <find>Gal/Lbs</find>
+      <find>lbs/gal</find>
+      <find>cement</find>
+      <find>liquid</find>
+      <find>liquidimpor</find>
+      <find>calculate</find>
+      <find>waterDens</find>
     </findStrings>
     <replaceStrings>
       <replace>MainWindow</replace>
+      <replace>Gal/Lbs</replace>
+      <replace>Gal/lbs</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -160,21 +165,21 @@
         <option value="$PROJECT_DIR$/src/Executable/CSVUtils.java" />
         <option value="$PROJECT_DIR$/src/Executable/SaveFilePathLocation.java" />
         <option value="$PROJECT_DIR$/src/Executable/CSVDatabaseExporter.java" />
-        <option value="$PROJECT_DIR$/src/Executable/MainWindow.form" />
         <option value="$PROJECT_DIR$/src/Executable/CustomComboBoxEditor.java" />
         <option value="$PROJECT_DIR$/src/Executable/TableDialogSetup.java" />
         <option value="$PROJECT_DIR$/src/Executable/CementComponentAdder.java" />
         <option value="$PROJECT_DIR$/src/Executable/ComboBoxEditor.java" />
         <option value="$PROJECT_DIR$/src/Executable/SaltComponentAdder.java" />
-        <option value="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java" />
         <option value="$PROJECT_DIR$/src/Executable/TableSetup.java" />
         <option value="$PROJECT_DIR$/src/Executable/DryComponentAdder.java" />
         <option value="$PROJECT_DIR$/src/Executable/InitialJTableComboBoxSetup.java" />
         <option value="$PROJECT_DIR$/src/Executable/CSVDatabaseReader.java" />
+        <option value="$PROJECT_DIR$/src/Executable/AddRow.java" />
+        <option value="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
+        <option value="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java" />
+        <option value="$PROJECT_DIR$/src/Executable/MainWindow.form" />
         <option value="$PROJECT_DIR$/src/Executable/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" />
-        <option value="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
-        <option value="$PROJECT_DIR$/src/Executable/AddRow.java" />
       </list>
     </option>
   </component>
@@ -201,6 +206,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,14 +230,13 @@
               <item name="UCementProgram" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Executable" type="462c0819:PsiDirectoryNode" />
-              <item name="MainWindow" type="e9f4de52:FormNode" />
+              <item name="LiquidComponentAdder" type="e9f4de52:FormNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -240,7 +245,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="430" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="259" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -550,57 +555,38 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32579187" sideWeight="0.49785176" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32502398" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3959276" sideWeight="0.5107411" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39693192" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19570136" sideWeight="0.48711064" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19654842" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22502685" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2249467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27714932" sideWeight="0.48925886" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39693192" sideWeight="0.4936034" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39693192" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19654842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -647,24 +633,17 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Executable/SlurryCalculations.java</url>
-          <line>36</line>
+          <line>233</line>
           <properties />
-          <option name="timeStamp" value="68" />
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="69" />
+      <option name="time" value="72" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="databaseValues" />
-        <watch expression="tcl.getNewValue().toString()" />
-        <watch expression="getCementNames()" />
-        <watch expression="mw.getLiquidNames()" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -680,16 +659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#8855#10173#0" expanded="true" />
-            <element signature="e#10172#10173#0" expanded="true" />
-            <element signature="e#14203#15568#0" expanded="true" />
-            <element signature="e#15567#15568#0" expanded="true" />
-            <element signature="e#19652#20834#0" expanded="true" />
-            <element signature="e#20833#20834#0" expanded="true" />
-            <element signature="e#25044#26259#0" expanded="true" />
-            <element signature="e#26258#26259#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,13 +765,6 @@
     <entry file="file://$PROJECT_DIR$/src/Executable/CustomComboBoxEditor.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/javax/swing/table/TableCellEditor.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/javax/swing/DefaultCellEditor.java" />
-    <entry file="file://$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="69" column="70" lean-forward="false" selection-start-line="69" selection-start-column="70" selection-end-line="69" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/CementComponentAdder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -865,6 +828,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/AddRow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="28" column="112" lean-forward="true" selection-start-line="28" selection-start-column="112" selection-end-line="28" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="180" column="49" lean-forward="true" selection-start-line="180" selection-start-column="49" selection-end-line="180" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -872,46 +859,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="476" column="121" lean-forward="true" selection-start-line="476" selection-start-column="121" selection-end-line="476" selection-end-column="121" />
-          <folding>
-            <element signature="e#8855#10173#0" expanded="true" />
-            <element signature="e#10172#10173#0" expanded="true" />
-            <element signature="e#14203#15568#0" expanded="true" />
-            <element signature="e#15567#15568#0" expanded="true" />
-            <element signature="e#19652#20834#0" expanded="true" />
-            <element signature="e#20833#20834#0" expanded="true" />
-            <element signature="e#25044#26259#0" expanded="true" />
-            <element signature="e#26258#26259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/AddRow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        <state relative-caret-position="3160">
+          <caret line="626" column="0" lean-forward="false" selection-start-line="626" selection-start-column="0" selection-end-line="626" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/SlurryCalculations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="294">
+          <caret line="219" column="45" lean-forward="false" selection-start-line="219" selection-start-column="45" selection-end-line="219" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#totalLiquidWeightYield#0;class#SlurryCalculations#0" expanded="false" />
-            <element signature="method#totalGallonsDryYield#0;class#SlurryCalculations#0" expanded="false" />
-            <element signature="method#totalGallonsLiquidYield#0;class#SlurryCalculations#0" expanded="false" />
           </folding>
         </state>
       </provider>

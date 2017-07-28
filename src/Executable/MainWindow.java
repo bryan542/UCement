@@ -25,8 +25,7 @@ public class MainWindow extends JFrame {
     private JTextField textField1;
     private JTextField textField2;
     private JTextField textField3;
-    private JTextField textField4;
-    private JTextField waterDensityTextField;
+    private JTextField cementDensityJTextField;
     private JPanel cementComponentJPanel;
     private JPanel saltComponentsJPanel;
     private JPanel dryComponentsJPanel;
@@ -53,7 +52,8 @@ public class MainWindow extends JFrame {
     private JButton deleteRowDryButton;
     private JButton deleteRowSaltButton;
     private JScrollPane mainScrollPane;
-
+    private JLabel slurryVolumeJLabel;
+    private JTextField waterDensityJTextField;
 
 
     ArrayList cementNames = new ArrayList();
@@ -176,11 +176,9 @@ public class MainWindow extends JFrame {
         DropDownMenu menu = new DropDownMenu();
         menu.buildMenuBar(MainWindow.this);
 
-
-
         String[] cementItems = {"Select Cement"};
         //JTable column names
-        String[] cementComponentColumns = {"Index","Cement","% CU.FT.","LBS/Sack","Absolute Volume LBS/Gal","Bulk Weight lbs/cuft","$ Cost/lb"};
+        String[] cementComponentColumns = {"Index","Cement","% CU.FT.","LBS/Sack","Absolute Volume Gal/lbs","Bulk Weight lbs/cuft","$ Cost/lb"};
 
         //Adds the initializer items that will be updated once components or a database is inserted
         JComboBox cementEditorComboBox = new JComboBox(cementItems);
@@ -234,7 +232,6 @@ public class MainWindow extends JFrame {
         addNewCementButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                waterDensityTextField.requestFocus();
                 CementComponentAdder cca = new CementComponentAdder(MainWindow.this, cementComponentsJTable,cementEditorComboBox);
                 cca.initialize();
 
@@ -307,7 +304,7 @@ public class MainWindow extends JFrame {
         String[] saltComponentItems = {"NaCl","KCl"};
         JComboBox saltEditorComboBox = new JComboBox(saltComponentItems);
 
-        String[] saltComponentColumns = {"Index","Salts % BWOW","Salt Component","Salt Abs. Volume lbs/gal","KCl Abs. Volume lbs/gal","Salt $Cost/lb","KCl $Cost/lb"};
+        String[] saltComponentColumns = {"Index","Salts % BWOW","Salt Component","Salt Abs. Volume Gal/lbs","KCl Abs. Volume Gal/lbs","Salt $Cost/lb","KCl $Cost/lb"};
 
 
          //Adds the initializer items that will be updated once components or a database is inserted
@@ -415,7 +412,7 @@ public class MainWindow extends JFrame {
 
         String[] dryComponentItems = {"Select Dry Addative"};
         String[] dryUnitOfMeasurementValues = {"%BWOC","LBS/Sack","%BWOW"};
-        String[] dryComponentColumns = {"Index","Dry Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
+        String[] dryComponentColumns = {"Index","Dry Component","Concentration","UOM","Absolute Volume Gal/lbs","Bulk Weight lbs/cuft","$ Cost/lb"};
         JComboBox dryEditorComboBox = new JComboBox(dryComponentItems);
         JComboBox dryUOMComboBox = new JComboBox(dryUnitOfMeasurementValues);
 
@@ -519,8 +516,8 @@ public class MainWindow extends JFrame {
 
 
         String[] liquidComponentItems = {"Select Liquid"};
-        String[] liquidUnitOfMeasurementValues = {"Gal/Sack","Gal/bbl"};
-        String[] liquidComponentColumns = {"Index","Liquid Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
+        String[] liquidUnitOfMeasurementValues = {"Gal/Sack"};
+        String[] liquidComponentColumns = {"Index","Liquid Component","Concentration","UOM","Absolute Volume Gal/lbs","Bulk Weight lbs/cuft","$ Cost/lb"};
         JComboBox liquidEditorComboBox = new JComboBox(liquidComponentItems);
         JComboBox liquidUOMComboBox = new JComboBox(liquidUnitOfMeasurementValues);
 
@@ -627,9 +624,9 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                SlurryCalculations sc = new SlurryCalculations();
+                SlurryCalculations sc = new SlurryCalculations(MainWindow.this,cementComponentsJTable,saltComponentsJTable,dryComponentsJTable,liquidComponentsJTable,Double.parseDouble(waterDensityJTextField.getText()),Double.parseDouble(cementDensityJTextField.getText()));
 
-                sc.totalDryWeightYield(cementComponentsJTable,dryComponentsJTable,MainWindow.this);
+
             }
         });
     }

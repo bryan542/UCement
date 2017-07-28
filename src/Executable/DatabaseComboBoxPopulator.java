@@ -133,6 +133,14 @@ public class DatabaseComboBoxPopulator {
                 table.setValueAt(combobox,i,1);
 
             }
+
+            String[] liquidUnitOfMeasurementValues = {"Gal/Sack"};
+            JComboBox liquidComboBox = new JComboBox(liquidUnitOfMeasurementValues);
+            TableColumn th = table.getColumnModel().getColumn(3);
+            th.setCellEditor(new DefaultCellEditor(liquidComboBox));
+            DefaultTableCellRenderer renderer =
+                    new DefaultTableCellRenderer();
+            th.setCellRenderer(renderer);
         }
 
 
@@ -148,7 +156,16 @@ public class DatabaseComboBoxPopulator {
             table.setValueAt("Select "+componentTypeRetriever,i,1);
 
         }
-        if( componentTypeRetriever.equalsIgnoreCase("Dry Addative")){
+
+        if( componentTypeRetriever.equalsIgnoreCase("Salt")){
+
+            for(int i = 0;i<table.getRowCount();i++){
+
+                table.setValueAt("NaCl",i,2);
+
+            }
+        }
+        else if( componentTypeRetriever.equalsIgnoreCase("Dry Addative")){
 
             for(int i = 0;i<table.getRowCount();i++){
 
@@ -156,11 +173,12 @@ public class DatabaseComboBoxPopulator {
 
             }
         }
-        else if( componentTypeRetriever.equalsIgnoreCase("Salt")){
+
+        else if( componentTypeRetriever.equalsIgnoreCase("Liquid")){
 
             for(int i = 0;i<table.getRowCount();i++){
 
-                table.setValueAt("NaCl",i,2);
+                table.setValueAt("Gal/Sack",i,3);
 
             }
         }

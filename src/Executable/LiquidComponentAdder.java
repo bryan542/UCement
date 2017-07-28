@@ -19,7 +19,7 @@ public class LiquidComponentAdder extends JDialog {
     public LiquidComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox) {
 
         //JTable column names
-        String[] liquidAdderComponentColumns = {"Index","Dry Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
+        String[] liquidAdderComponentColumns = {"Index","Liquid Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
         String[] liquidAdderComponentItems = {"Gal/Sack","Gal/bbl"};
         JComboBox liquidAdderUOMEditorComboBox = new JComboBox(liquidAdderComponentItems);
         Object [][] liquidAdderComponentData = {{1,"","",liquidAdderUOMEditorComboBox,"","",""}};
