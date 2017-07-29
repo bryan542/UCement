@@ -22,8 +22,6 @@ public class AddRow {
             columnValueSet[i] = "0";
         }
 
-
-
         DefaultTableModel model = (DefaultTableModel) table.getModel();
         model.addRow(columnValueSet);
         table.setValueAt("Select "+componentParameter,table.getRowCount()-1,1); //Sets the default select row prompt

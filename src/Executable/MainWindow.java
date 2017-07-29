@@ -353,7 +353,7 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                SaltComponentAdder sca = new SaltComponentAdder(MainWindow.this, saltComponentsJTable,saltTypeComboBox);
+                SaltComponentAdder sca = new SaltComponentAdder(MainWindow.this, saltComponentsJTable,saltTypeComboBox, saltEditorComboBox);
                 sca.initialize();
 
             }
@@ -364,7 +364,7 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                DatabaseComboBoxPopulator dcbp = new DatabaseComboBoxPopulator(MainWindow.this,saltComponentsJTable,saltTypeComboBox,"Salt");
+                DatabaseComboBoxPopulator dcbp = new DatabaseComboBoxPopulator(MainWindow.this,saltComponentsJTable,saltTypeComboBox,saltEditorComboBox,"Salt");
             }
         });
 
@@ -461,7 +461,7 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                DryComponentAdder dca = new DryComponentAdder(MainWindow.this, dryComponentsJTable,dryEditorComboBox);
+                DryComponentAdder dca = new DryComponentAdder(MainWindow.this, dryComponentsJTable,dryEditorComboBox, dryUOMComboBox);
                 dca.initialize();
             }
         });
@@ -471,7 +471,7 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                DatabaseComboBoxPopulator dcbp = new DatabaseComboBoxPopulator(MainWindow.this,dryComponentsJTable,dryEditorComboBox,"Dry Addative");
+                DatabaseComboBoxPopulator dcbp = new DatabaseComboBoxPopulator(MainWindow.this,dryComponentsJTable,dryEditorComboBox,dryUOMComboBox,"Dry Addative");
             }
         });
 
@@ -566,7 +566,7 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-            LiquidComponentAdder lca = new LiquidComponentAdder(MainWindow.this, liquidComponentsJTable,liquidEditorComboBox);
+            LiquidComponentAdder lca = new LiquidComponentAdder(MainWindow.this, liquidComponentsJTable,liquidEditorComboBox, liquidUOMComboBox);
             lca.initialize();
 
             }
@@ -577,7 +577,7 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                DatabaseComboBoxPopulator dcbp = new DatabaseComboBoxPopulator(MainWindow.this,liquidComponentsJTable,liquidEditorComboBox,"Liquid");
+                DatabaseComboBoxPopulator dcbp = new DatabaseComboBoxPopulator(MainWindow.this,liquidComponentsJTable,liquidEditorComboBox,liquidUOMComboBox,"Liquid");
             }
         });
 

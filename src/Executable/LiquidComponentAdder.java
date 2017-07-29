@@ -6,6 +6,8 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import java.awt.*;
 import java.awt.event.*;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class LiquidComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -16,11 +18,14 @@ public class LiquidComponentAdder extends JDialog {
 
 
 
-    public LiquidComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox) {
+    public LiquidComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox, JComboBox UOMComboBox) {
+
+        ArrayList previousComboNames = new ArrayList();
+        ArrayList previousComboUOM = new ArrayList();
 
         //JTable column names
         String[] liquidAdderComponentColumns = {"Index","Liquid Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
-        String[] liquidAdderComponentItems = {"Gal/Sack","Gal/bbl"};
+        String[] liquidAdderComponentItems = {"Gal/Sack"};
         JComboBox liquidAdderUOMEditorComboBox = new JComboBox(liquidAdderComponentItems);
         Object [][] liquidAdderComponentData = {{1,"","",liquidAdderUOMEditorComboBox,"","",""}};
 
@@ -48,33 +53,58 @@ public class LiquidComponentAdder extends JDialog {
                 if(liquidAdderComponentsJTable.getCellEditor() != null){
                     liquidAdderComponentsJTable.getCellEditor().stopCellEditing();
                 }
+
+
+                //makes sure the previous selected comboboxes stay the same
+                for(int i = 0;i<mainTable.getRowCount();i++){
+
+                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Liquid")){
+
+                        previousComboNames.add(mainComboBox.getSelectedItem().toString());
+                        previousComboUOM.add(UOMComboBox.getSelectedItem().toString());
+                    }
+                    else{
+
+                        previousComboNames.add(mainTable.getValueAt(i,1));
+                        previousComboUOM.add(mainTable.getValueAt(i,3));
+                    }
+                }
+
                 for (int i = 0;i<liquidAdderComponentsJTable.getRowCount();i++){
 
-                    mainComboBox.addItem(liquidAdderComponentsJTable.getValueAt(i,1));
-                    mw.getLiquidNames().add(liquidAdderComponentsJTable.getValueAt(i,1));
+
+                    mainComboBox.addItem(liquidAdderComponentsJTable.getValueAt(i,1).toString());
+                    mw.getLiquidNames().add(liquidAdderComponentsJTable.getValueAt(i,1).toString());
                     mw.getLiquidAbsVolume().add(liquidAdderComponentsJTable.getValueAt(i,4));
                     mw.getLiquidBulkWeight().add(liquidAdderComponentsJTable.getValueAt(i,5));
                     mw.getLiquidPrice().add(liquidAdderComponentsJTable.getValueAt(i,6));
 
                 }
 
-                for(int i = 0;i<mainTable.getRowCount();i++){
+                TableColumn th = mainTable.getColumnModel().getColumn(1);
+                th.setCellEditor(new DefaultCellEditor(mainComboBox));
+                DefaultTableCellRenderer renderer =
+                        new DefaultTableCellRenderer();
+                th.setCellRenderer(renderer);
 
-                    mainTable.setValueAt(mainComboBox,i,1);
+                String[] liquidUnitOfMeasurementValues = {"Gal/Sack"};
+                JComboBox liquidComboBox = new JComboBox(liquidUnitOfMeasurementValues);
+                TableColumn thUOM = mainTable.getColumnModel().getColumn(3);
+                thUOM.setCellEditor(new DefaultCellEditor(liquidComboBox));
+                DefaultTableCellRenderer rendererUOM =
+                        new DefaultTableCellRenderer();
+                thUOM.setCellRenderer(rendererUOM);
 
-                }
 
-                mainTable.getColumnModel().getColumn(1);
-                TableColumn column = mainTable.getColumnModel().getColumn(1);
-                ComboBoxEditor ce = new ComboBoxEditor(mainComboBox);
-                column.setCellEditor(ce); //adds items to the combobox
 
                 //sets the combobox text when it dynamically updates to a value telling the user to make a selection
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    mainTable.setValueAt("Select Liquid",i,1);
+                    mainTable.setValueAt(previousComboNames.get(i),i,1);
+                    mainTable.setValueAt(previousComboUOM.get(i).toString(),i,3);
 
                 }
+
                 onOK();
             }
         });

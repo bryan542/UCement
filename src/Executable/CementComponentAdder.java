@@ -6,6 +6,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 public class CementComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -18,7 +19,7 @@ public class CementComponentAdder extends JDialog {
 
     public CementComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox) {
 
-
+        ArrayList previousComboNames = new ArrayList();
 
         //JTable column names
         String[] cementAdderComponentColumns = {"Index","Cement","% CU.FT.","LBS/Sack","Absolute Volume LBS/Gal","Bulk Weight lbs/cuft","$ Cost/lb"};
@@ -48,6 +49,21 @@ public class CementComponentAdder extends JDialog {
                     cementAdderComponentsJTable.getCellEditor().stopCellEditing();
                 }
 
+                //makes sure the previous selected comboboxes stay the same
+                for(int i = 0;i<mainTable.getRowCount();i++){
+
+                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Cement")){
+
+                        previousComboNames.add(mainComboBox.getSelectedItem().toString());
+
+                    }
+                    else{
+
+                        previousComboNames.add(mainTable.getValueAt(i,1));
+
+                    }
+                }
+
                 String[] updatedNames = new String[cementAdderComponentsJTable.getRowCount()];
                 for (int i = 0;i<cementAdderComponentsJTable.getRowCount();i++){
 
@@ -60,23 +76,16 @@ public class CementComponentAdder extends JDialog {
                     updatedNames[i] = cementAdderComponentsJTable.getValueAt(i,1).toString();
                 }
 
-                for(int i = 0;i<mainTable.getRowCount();i++){
-
-                    mainTable.setValueAt(mainComboBox,i,1);
-
-                }
-
-                mainTable.getColumnModel().getColumn(1);
-                TableColumn column = mainTable.getColumnModel().getColumn(1);
-                ComboBoxEditor ce = new ComboBoxEditor(mainComboBox);
-                column.setCellEditor(ce); //adds items to the combobox
-
-
+                TableColumn th = mainTable.getColumnModel().getColumn(1);
+                th.setCellEditor(new DefaultCellEditor(mainComboBox));
+                DefaultTableCellRenderer renderer =
+                        new DefaultTableCellRenderer();
+                th.setCellRenderer(renderer);
 
                 //sets the combobox text when it dynamically updates to a value telling the user to make a selection
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    mainTable.setValueAt("Select Cement",i,1);
+                    mainTable.setValueAt(previousComboNames.get(i),i,1);
 
                 }
 
