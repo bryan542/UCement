@@ -6,6 +6,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 public class DryComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -16,7 +17,11 @@ public class DryComponentAdder extends JDialog {
 
 
 
-    public DryComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox) {
+    public DryComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox, JComboBox UOMComboBox) {
+
+
+        ArrayList previousComboNames = new ArrayList();
+        ArrayList previousComboUOM = new ArrayList();
 
         //JTable column names
         String[] dryAdderComponentColumns = {"Index","Dry Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
@@ -48,6 +53,22 @@ public class DryComponentAdder extends JDialog {
                 if(dryAdderComponentsJTable.getCellEditor() != null){
                     dryAdderComponentsJTable.getCellEditor().stopCellEditing();
                 }
+
+                //makes sure the previous selected comboboxes stay the same
+                for(int i = 0;i<mainTable.getRowCount();i++){
+
+                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Dry Addative")){
+
+                        previousComboNames.add(mainComboBox.getSelectedItem().toString());
+                        previousComboUOM.add(UOMComboBox.getSelectedItem().toString());
+                    }
+                    else{
+
+                        previousComboNames.add(mainTable.getValueAt(i,1));
+                        previousComboUOM.add(mainTable.getValueAt(i,3));
+                    }
+                }
+
                 for (int i = 0;i<dryAdderComponentsJTable.getRowCount();i++){
 
 
@@ -60,23 +81,29 @@ public class DryComponentAdder extends JDialog {
 
                 }
 
-                for(int i = 0;i<mainTable.getRowCount();i++){
+                TableColumn th = mainTable.getColumnModel().getColumn(1);
+                th.setCellEditor(new DefaultCellEditor(mainComboBox));
+                DefaultTableCellRenderer renderer =
+                        new DefaultTableCellRenderer();
+                th.setCellRenderer(renderer);
 
-                    mainTable.setValueAt(mainComboBox,i,1);
+                String[] liquidUnitOfMeasurementValues = {"%BWOC","LBS/Sack","%BWOW"};
+                JComboBox liquidComboBox = new JComboBox(liquidUnitOfMeasurementValues);
+                TableColumn thUOM = mainTable.getColumnModel().getColumn(3);
+                thUOM.setCellEditor(new DefaultCellEditor(liquidComboBox));
+                DefaultTableCellRenderer rendererUOM =
+                        new DefaultTableCellRenderer();
+                thUOM.setCellRenderer(rendererUOM);
 
-                }
-
-                mainTable.getColumnModel().getColumn(1);
-                TableColumn column = mainTable.getColumnModel().getColumn(1);
-                ComboBoxEditor ce = new ComboBoxEditor(mainComboBox);
-                column.setCellEditor(ce); //adds items to the combobox
 
                 //sets the combobox text when it dynamically updates to a value telling the user to make a selection
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    mainTable.setValueAt("Select Dry Addative",i,1);
+                    mainTable.setValueAt(previousComboNames.get(i),i,1);
+                    mainTable.setValueAt(previousComboUOM.get(i).toString(),i,3);
 
                 }
+
                 onOK();
             }
         });

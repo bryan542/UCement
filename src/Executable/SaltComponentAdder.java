@@ -6,6 +6,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 public class SaltComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -16,7 +17,10 @@ public class SaltComponentAdder extends JDialog {
 
 
 
-    public SaltComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox) {
+    public SaltComponentAdder(MainWindow mw, JTable mainTable, JComboBox mainComboBox, JComboBox UOMComboBox) {
+
+        ArrayList previousComboNames = new ArrayList();
+        ArrayList previousComboUOM = new ArrayList();
 
         //JTable column names
         String[] saltAdderComponentColumns = {"Index","Salts % BWOW","Salt Component","Salt Abs. Volume lbs/gal","KCl Abs. Volume lbs/gal","Salt $Cost/lb","KCl $Cost/lb"};
@@ -48,6 +52,22 @@ public class SaltComponentAdder extends JDialog {
                 if(saltAdderComponentsJTable.getCellEditor() != null){
                     saltAdderComponentsJTable.getCellEditor().stopCellEditing();
                 }
+
+                //makes sure the previous selected comboboxes stay the same
+                for(int i = 0;i<mainTable.getRowCount();i++){
+
+                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Salt")){
+
+                        previousComboNames.add(mainComboBox.getSelectedItem().toString());
+                        previousComboUOM.add(UOMComboBox.getSelectedItem().toString());
+                    }
+                    else{
+
+                        previousComboNames.add(mainTable.getValueAt(i,1));
+                        previousComboUOM.add(mainTable.getValueAt(i,2));
+                    }
+                }
+
                 for (int i = 0;i<saltAdderComponentsJTable.getRowCount();i++){
 
 
@@ -62,26 +82,30 @@ public class SaltComponentAdder extends JDialog {
 
                 }
 
-                for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    mainTable.setValueAt(mainComboBox,i,1);
+                TableColumn th = mainTable.getColumnModel().getColumn(1);
+                th.setCellEditor(new DefaultCellEditor(mainComboBox));
+                DefaultTableCellRenderer renderer =
+                        new DefaultTableCellRenderer();
+                th.setCellRenderer(renderer);
 
-                }
-
-                mainTable.getColumnModel().getColumn(1);
-                TableColumn column = mainTable.getColumnModel().getColumn(1);
-                ComboBoxEditor ce = new ComboBoxEditor(mainComboBox);
-                column.setCellEditor(ce); //adds items to the combobox
+                String[] liquidUnitOfMeasurementValues = {"NaCl","KCl"};
+                JComboBox liquidComboBox = new JComboBox(liquidUnitOfMeasurementValues);
+                TableColumn thUOM = mainTable.getColumnModel().getColumn(2);
+                thUOM.setCellEditor(new DefaultCellEditor(liquidComboBox));
+                DefaultTableCellRenderer rendererUOM =
+                        new DefaultTableCellRenderer();
+                thUOM.setCellRenderer(rendererUOM);
 
 
 
                 //sets the combobox text when it dynamically updates to a value telling the user to make a selection
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    mainTable.setValueAt("Select Salt",i,1);
+                    mainTable.setValueAt(previousComboNames.get(i),i,1);
+                    mainTable.setValueAt(previousComboUOM.get(i).toString(),i,2);
 
                 }
-
 
                 onOK();
             }

@@ -22,10 +22,22 @@ public class AddRow {
             columnValueSet[i] = "0";
         }
 
-
-
         DefaultTableModel model = (DefaultTableModel) table.getModel();
         model.addRow(columnValueSet);
         table.setValueAt("Select "+componentParameter,table.getRowCount()-1,1); //Sets the default select row prompt
+
+
+        if(componentParameter.equalsIgnoreCase("Salt")){
+
+            table.setValueAt("NaCl",table.getRowCount()-1,2);
+        }
+        else if(componentParameter.equalsIgnoreCase("Dry Addative")){
+
+            table.setValueAt("%BWOC",table.getRowCount()-1,3);
+        }
+        else if(componentParameter.equalsIgnoreCase("Liquid")){
+
+            table.setValueAt("Gal/Sack",table.getRowCount()-1,3);
+        }
     }
 }
