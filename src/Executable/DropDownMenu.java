@@ -4,14 +4,15 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.Reader;
 
 /**
  * Created by Bryan on 7/13/2017.
  */
 public class DropDownMenu {
 
-    public void buildMenuBar(MainWindow mw){
+    public void buildMenuBar(MainWindow mw,JTable cementTable, JTable saltTable, JTable dryTable, JTable liquidTable,
+                             JComboBox cementCombobox, JComboBox saltCombobox, JComboBox dryCombobox, JComboBox liquidCombobox,
+                             JComboBox saltUOMCombobox, JComboBox dryUOMCombobox, JComboBox liquidUOMCombobox){
 
         //build file menu
 
@@ -66,6 +67,12 @@ public class DropDownMenu {
                    // SaveLoadFileData sdSave = new SaveLoadFileData();
                   //  String filename = sdSave.getSaveLocation(mw);
                   //  sdSave.writeCSVFile(mw,filename);
+
+
+                    SaveFilePathLocation sdLoad = new SaveFilePathLocation();
+                    String filename = sdLoad.getSaveLocation(mw);
+
+                    ProjectSave cde = new ProjectSave(mw,filename);
                 }
                 catch (Exception ex2){
 
@@ -80,8 +87,12 @@ public class DropDownMenu {
               //  SaveLoadFileData sdLoad = new SaveLoadFileData();
               //  String filename = sdLoad.getLoadLocation(mw);
                 try {
-                  //  Reader read = null;
-                  //  read = sdLoad.readCSV(filename, mw);
+
+
+                    ProjectLoad pLoad= new ProjectLoad(mw, cementTable, saltTable, dryTable, liquidTable,
+                            cementCombobox, saltCombobox, dryCombobox, liquidCombobox,
+                            saltUOMCombobox, dryUOMCombobox, liquidUOMCombobox);
+
 
                 } catch (Exception e1) {
 

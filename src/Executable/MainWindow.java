@@ -172,9 +172,7 @@ public class MainWindow extends JFrame {
         Image EGIImage = EGIImageIcon.getImage();
         MainWindow.this.setIconImage(EGIImage);
 
-        //builds all the menus selected at the top of the application
-        DropDownMenu menu = new DropDownMenu();
-        menu.buildMenuBar(MainWindow.this);
+
 
         String[] cementItems = {"Select Cement"};
         //JTable column names
@@ -195,6 +193,8 @@ public class MainWindow extends JFrame {
                     return col >0;
             }
         };
+
+
 
 
         cementComponentsJTable.setShowGrid(true);
@@ -629,6 +629,12 @@ public class MainWindow extends JFrame {
 
             }
         });
+
+
+        //builds all the menus selected at the top of the application
+        DropDownMenu menu = new DropDownMenu();
+        menu.buildMenuBar(MainWindow.this, cementComponentsJTable, saltComponentsJTable,dryComponentsJTable,liquidComponentsJTable,
+                cementEditorComboBox,saltTypeComboBox,dryEditorComboBox,liquidEditorComboBox,saltEditorComboBox,dryEditorComboBox,liquidUOMComboBox);
     }
 
 

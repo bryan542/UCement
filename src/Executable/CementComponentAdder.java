@@ -52,7 +52,7 @@ public class CementComponentAdder extends JDialog {
                 //makes sure the previous selected comboboxes stay the same
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Cement")){
+                    if(i ==0 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Cement")){
 
                         previousComboNames.add(mainComboBox.getSelectedItem().toString());
 
@@ -62,6 +62,8 @@ public class CementComponentAdder extends JDialog {
                         previousComboNames.add(mainTable.getValueAt(i,1));
 
                     }
+
+
                 }
 
                 String[] updatedNames = new String[cementAdderComponentsJTable.getRowCount()];

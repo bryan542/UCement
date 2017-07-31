@@ -56,7 +56,7 @@ public class SaltComponentAdder extends JDialog {
                 //makes sure the previous selected comboboxes stay the same
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Salt")){
+                    if(i ==0 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Salt")){
 
                         previousComboNames.add(mainComboBox.getSelectedItem().toString());
                         previousComboUOM.add(UOMComboBox.getSelectedItem().toString());

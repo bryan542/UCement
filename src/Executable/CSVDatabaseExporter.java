@@ -30,7 +30,7 @@ public class CSVDatabaseExporter {
                 }
             }
             else if(exportComponentType.equalsIgnoreCase("Salt")) {
-                CSVUtils.writeLine(writer, Arrays.asList("Salts % BWOW","Salt Abs. Volume lbs/gal","KCl Abs. Volume lbs/gal","Salt $Cost/lb","KCl $Cost/lb"));
+                CSVUtils.writeLine(writer, Arrays.asList("Salt % BWOW","Salt Abs. Volume lbs/gal","KCl Abs. Volume lbs/gal","Salt $Cost/lb","KCl $Cost/lb"));
 
                 for (int i = 0; i < mw.getSaltBWOW().size(); i++) {
 
@@ -46,7 +46,7 @@ public class CSVDatabaseExporter {
                 }
             }
             else if(exportComponentType.equalsIgnoreCase("Dry")) {
-                CSVUtils.writeLine(writer, Arrays.asList("Dry Component","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"));
+                CSVUtils.writeLine(writer, Arrays.asList("Dry Addative","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"));
 
                 for (int i = 0; i < mw.getDryNames().size(); i++) {
 

@@ -57,7 +57,7 @@ public class DryComponentAdder extends JDialog {
                 //makes sure the previous selected comboboxes stay the same
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
-                    if(mainTable.getRowCount() < 2 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Dry Addative")){
+                    if(i ==0 && mainComboBox.getSelectedItem().toString().equalsIgnoreCase("Select Dry Addative")){
 
                         previousComboNames.add(mainComboBox.getSelectedItem().toString());
                         previousComboUOM.add(UOMComboBox.getSelectedItem().toString());
