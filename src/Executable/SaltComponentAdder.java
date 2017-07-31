@@ -52,7 +52,7 @@ public class SaltComponentAdder extends JDialog {
                 if(saltAdderComponentsJTable.getCellEditor() != null){
                     saltAdderComponentsJTable.getCellEditor().stopCellEditing();
                 }
-///fffff
+
                 //makes sure the previous selected comboboxes stay the same
                 for(int i = 0;i<mainTable.getRowCount();i++){
 
