@@ -1,8 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="UCementProgram:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="75781e61-b6b5-429c-a3fe-63b4392ef9c2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/SaltComponentAdder.java" afterPath="$PROJECT_DIR$/src/Executable/SaltComponentAdder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DatabaseComboBoxPopulator.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/DatabaseComboBoxPopulator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$10.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$11.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$12.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$13.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$14.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$16.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$17.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$18.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$18.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$19.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$19.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$2.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$20.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$20.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$21.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$21.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$23.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$23.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$24.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$25.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$25.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$26.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$26.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$27.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$27.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$28.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$28.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$29.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$29.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$3.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$30.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$30.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$4.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$5.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$6.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$7.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$9.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ProjectLoadReader.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/ProjectLoadReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SaltComponentAdder$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SlurryCalculations.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/SlurryCalculations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" afterPath="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/MainWindow.form" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/MainWindow.java" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/ProjectLoadReader.java" afterPath="$PROJECT_DIR$/src/Executable/ProjectLoadReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" afterPath="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,32 +60,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainWindow.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="637" column="5" lean-forward="false" selection-start-line="637" selection-start-column="5" selection-end-line="637" selection-end-column="5" />
+            <state relative-caret-position="142">
+              <caret line="249" column="8" lean-forward="true" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
               <folding>
-                <element signature="e#3742#3743#0" expanded="true" />
-                <element signature="e#3776#3777#0" expanded="true" />
-                <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-                <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-                <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-                <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-                <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-                <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-                <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
+                <element signature="e#6890#6891#0" expanded="true" />
+                <element signature="e#6983#6984#0" expanded="true" />
+                <element signature="e#13511#13512#0" expanded="true" />
+                <element signature="e#13604#13605#0" expanded="true" />
+                <element signature="e#20042#20043#0" expanded="true" />
+                <element signature="e#20135#20136#0" expanded="true" />
+                <element signature="e#26442#26443#0" expanded="true" />
+                <element signature="e#26535#26536#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SaltComponentAdder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Executable/SaltComponentAdder.java">
+      <file leaf-file-name="ComboBoxRenderer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/ComboBoxRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableSetup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/TableSetup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectLoad.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoad.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectLoadReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoadReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1491">
+              <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+              <folding>
+                <marker date="1501566100000" expanded="true" signature="5850:6095" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,8 +124,8 @@
       <file leaf-file-name="DatabaseComboBoxPopulator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="55" column="17" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="294">
+              <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,33 +134,30 @@
       <file leaf-file-name="DropDownMenu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Executable/DropDownMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="1449">
+              <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="27" />
               <folding>
                 <marker date="1501535152000" expanded="true" signature="3125:3200" ph="{...}" />
-                <marker date="1501535152000" expanded="true" signature="3125:3210" ph="{...}" />
-                <marker date="1501535152000" expanded="true" signature="3125:3252" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSVDatabaseReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="45" />
-              <folding />
-            </state>
+      <file leaf-file-name="MainWindow.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CSVDatabaseExporter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseExporter.java">
+      <file leaf-file-name="SlurryCalculations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Executable/SlurryCalculations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
-              <folding />
+            <state relative-caret-position="4011">
+              <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+              <folding>
+                <marker date="1501631028000" expanded="true" signature="10644:11033" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -103,6 +178,19 @@
       <find>load</find>
       <find>select dry</find>
       <find>dropdown</find>
+      <find>liquid</find>
+      <find>liquid compo</find>
+      <find>select liquid</find>
+      <find>select</find>
+      <find>projectl</find>
+      <find>project</find>
+      <find>dropdownm</find>
+      <find>editable</find>
+      <find>stopcell</find>
+      <find>edit</find>
+      <find>celledi</find>
+      <find>celledit</find>
+      <find>calculate</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,20 +207,25 @@
         <option value="$PROJECT_DIR$/src/Executable/DropDownMenu.java" />
         <option value="$PROJECT_DIR$/src/Executable/CSVDatabaseExporter.java" />
         <option value="$PROJECT_DIR$/src/Executable/ProjectSave.java" />
-        <option value="$PROJECT_DIR$/src/Executable/ProjectLoadReader.java" />
         <option value="$PROJECT_DIR$/src/Executable/ProjectLoad.java" />
-        <option value="$PROJECT_DIR$/src/Executable/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/Executable/CementComponentAdder.java" />
         <option value="$PROJECT_DIR$/src/Executable/DryComponentAdder.java" />
         <option value="$PROJECT_DIR$/src/Executable/LiquidComponentAdder.java" />
         <option value="$PROJECT_DIR$/src/Executable/SaltComponentAdder.java" />
+        <option value="$PROJECT_DIR$/src/Executable/ProjectLoadReader.java" />
+        <option value="$PROJECT_DIR$/src/Executable/MainWindow.form" />
+        <option value="$PROJECT_DIR$/src/Executable/SlurryCalculations.java" />
+        <option value="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
+        <option value="$PROJECT_DIR$/src/Executable/RXTable.java" />
+        <option value="$PROJECT_DIR$/src/Executable/MainWindow.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1601" />
+    <option name="y" value="12" />
+    <option name="width" value="1549" />
+    <option name="height" value="882" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -149,9 +242,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,46 +263,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Executable" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="UCementProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCementProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Executable" type="462c0819:PsiDirectoryNode" />
-              <item name="CementComponentAdder" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="UCementProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCementProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Executable" type="462c0819:PsiDirectoryNode" />
-              <item name="DryComponentAdder" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="UCementProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCementProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Executable" type="462c0819:PsiDirectoryNode" />
-              <item name="LiquidComponentAdder" type="e9f4de52:FormNode" />
-            </path>
-            <path>
-              <item name="UCementProgram" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UCementProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Executable" type="462c0819:PsiDirectoryNode" />
-              <item name="SaltComponentAdder" type="e9f4de52:FormNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="E:/EGI Drilling Advisor Tool" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="stopcell&#9;PSI&#9;JAVA://javax.swing.DefaultCellEditor.EditorDelegate#stopCellEditing" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -333,6 +399,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="75781e61-b6b5-429c-a3fe-63b4392ef9c2" name="Default" comment="" />
@@ -349,51 +418,30 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17927171" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18067227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18028535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05182073" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23605707" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3977591" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39915967" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913166" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18067227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18028535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.05182073" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -401,15 +449,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Executable/CementComponentAdder.java</url>
-          <line>52</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -422,94 +465,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="631" column="5" lean-forward="false" selection-start-line="631" selection-start-column="5" selection-end-line="631" selection-end-column="5" />
-          <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11696">
-          <caret line="688" column="0" lean-forward="false" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
-          <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11696">
-          <caret line="688" column="0" lean-forward="true" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
-          <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md" />
@@ -536,16 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectSave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectSave.java" />
     <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -554,38 +500,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoadReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="155" column="54" lean-forward="false" selection-start-line="155" selection-start-column="54" selection-end-line="155" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoadReader.java" />
     <entry file="file://$PROJECT_DIR$/src/Executable/DropDownMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
             <marker date="1501535152000" expanded="true" signature="3125:3200" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="3125:3210" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="3125:3252" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoad.java" />
     <entry file="file://$PROJECT_DIR$/src/Executable/AddRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -630,15 +556,14 @@
         <state relative-caret-position="404">
           <caret line="637" column="5" lean-forward="false" selection-start-line="637" selection-start-column="5" selection-end-line="637" selection-end-column="5" />
           <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
+            <element signature="e#6890#6891#0" expanded="true" />
+            <element signature="e#6983#6984#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+            <element signature="e#13604#13605#0" expanded="true" />
+            <element signature="e#20042#20043#0" expanded="true" />
+            <element signature="e#20135#20136#0" expanded="true" />
+            <element signature="e#26442#26443#0" expanded="true" />
+            <element signature="e#26535#26536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -656,15 +581,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
+            <element signature="e#6890#6891#0" expanded="true" />
+            <element signature="e#6983#6984#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+            <element signature="e#13604#13605#0" expanded="true" />
+            <element signature="e#20042#20043#0" expanded="true" />
+            <element signature="e#20135#20136#0" expanded="true" />
+            <element signature="e#26442#26443#0" expanded="true" />
+            <element signature="e#26535#26536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -674,15 +598,14 @@
         <state relative-caret-position="11696">
           <caret line="688" column="0" lean-forward="false" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
           <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
+            <element signature="e#6890#6891#0" expanded="true" />
+            <element signature="e#6983#6984#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+            <element signature="e#13604#13605#0" expanded="true" />
+            <element signature="e#20042#20043#0" expanded="true" />
+            <element signature="e#20135#20136#0" expanded="true" />
+            <element signature="e#26442#26443#0" expanded="true" />
+            <element signature="e#26535#26536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -694,15 +617,14 @@
         <state relative-caret-position="11696">
           <caret line="688" column="0" lean-forward="true" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
           <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
+            <element signature="e#6890#6891#0" expanded="true" />
+            <element signature="e#6983#6984#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+            <element signature="e#13604#13605#0" expanded="true" />
+            <element signature="e#20042#20043#0" expanded="true" />
+            <element signature="e#20135#20136#0" expanded="true" />
+            <element signature="e#26442#26443#0" expanded="true" />
+            <element signature="e#26535#26536#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -725,76 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseExporter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectSave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoadReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="155" column="54" lean-forward="false" selection-start-line="155" selection-start-column="54" selection-end-line="155" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/DropDownMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-          <folding>
-            <marker date="1501535152000" expanded="true" signature="3125:3200" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="3125:3210" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="3125:3252" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/AddRow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="48" selection-start-column="15" selection-end-line="55" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,29 +678,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
+    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectSave.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="637" column="5" lean-forward="false" selection-start-line="637" selection-start-column="5" selection-end-line="637" selection-end-column="5" />
-          <folding>
-            <element signature="e#3742#3743#0" expanded="true" />
-            <element signature="e#3776#3777#0" expanded="true" />
-            <marker date="1501535152000" expanded="true" signature="27351:27427" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="27503:28625" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="28702:29032" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29078:29733" ph="{...}" />
-            <marker date="1501535152000" expanded="true" signature="29620:29725" ph="{...}" />
-            <marker date="1501535152000" expanded="false" signature="29652:29671" ph=" { " />
-            <marker date="1501535152000" expanded="false" signature="29701:29715" ph=" }" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Executable/SaltComponentAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="1445">
+          <caret line="91" column="30" lean-forward="false" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="33" column="45" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/CSVDatabaseExporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="48" column="70" lean-forward="false" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoadReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="75" column="60" lean-forward="false" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+          <folding>
+            <marker date="1501566100000" expanded="true" signature="5850:6095" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/ProjectLoad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/DropDownMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="27" />
+          <folding>
+            <marker date="1501535152000" expanded="true" signature="3125:3200" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/SlurryCalculations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4011">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding>
+            <marker date="1501631028000" expanded="true" signature="10644:11033" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/javax/swing/DefaultCellEditor.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/javax/swing/CellEditor.java" />
+    <entry file="file://$PROJECT_DIR$/src/Executable/TableSetup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/ComboBoxRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/RXTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/RXTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="228" column="42" lean-forward="false" selection-start-line="228" selection-start-column="42" selection-end-line="229" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="249" column="8" lean-forward="true" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+          <folding>
+            <element signature="e#6890#6891#0" expanded="true" />
+            <element signature="e#6983#6984#0" expanded="true" />
+            <element signature="e#13511#13512#0" expanded="true" />
+            <element signature="e#13604#13605#0" expanded="true" />
+            <element signature="e#20042#20043#0" expanded="true" />
+            <element signature="e#20135#20136#0" expanded="true" />
+            <element signature="e#26442#26443#0" expanded="true" />
+            <element signature="e#26535#26536#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,10 +820,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>UCementProgram:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

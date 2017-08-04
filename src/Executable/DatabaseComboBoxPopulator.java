@@ -256,6 +256,7 @@ public class DatabaseComboBoxPopulator {
                 new DefaultTableCellRenderer();
         th.setCellRenderer(renderer);
 
+
     }
 
     //Double checks for duplicate values imported

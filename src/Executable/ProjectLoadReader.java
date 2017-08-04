@@ -103,7 +103,7 @@ public class ProjectLoadReader {
                     }
                 }
 
-                if (databaseValues[10].equalsIgnoreCase("Dry Addative Name") || databaseValues[10].equalsIgnoreCase(" ")){
+                if (databaseValues[10].equalsIgnoreCase("Dry Addative") || databaseValues[10].equalsIgnoreCase(" ")){
 
                 }
                 else{
@@ -133,13 +133,11 @@ public class ProjectLoadReader {
                                 mw.getDryBulkWeight().add(databaseValues[12]);
                                 mw.getDryPrice().add(databaseValues[13]);
                         }
-
                     }
-
                 }
 
 
-                if (databaseValues[14].equalsIgnoreCase("Liquid Product Name") || databaseValues[14].equalsIgnoreCase(" ")){
+                if (databaseValues[14].equalsIgnoreCase("Liquid Component") || databaseValues[14].equalsIgnoreCase(" ")){
 
                 }
                 else{

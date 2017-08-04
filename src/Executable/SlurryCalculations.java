@@ -215,9 +215,9 @@ public class SlurryCalculations {
         weightSlurry = totalWeight+totalWeightVariable*gallonsWaterPerSack;
         volumeSlurry = totalVolume + totalVolumeVariable*gallonsWaterPerSack;
 
-        System.out.println("GPS Water: "+ gallonsWaterPerSack);
-        System.out.println("Weight Slurry lb/sack: "+weightSlurry);
-        System.out.println("Slurry Volume GPS: "+volumeSlurry);
+        mw.getWaterVolumeSackJTextField().setText(Double.toString(gallonsWaterPerSack));
+        mw.getSlurryWeightJTextField().setText(Double.toString(weightSlurry));
+        mw.getSlurryVolumeJTextField().setText(Double.toString(volumeSlurry));
 
     }
 

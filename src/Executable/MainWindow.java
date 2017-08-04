@@ -1,13 +1,17 @@
 package Executable;
 
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.table.*;
+import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.EventObject;
 import java.util.List;
 import java.io.FileWriter;
 import java.net.URL;
@@ -26,6 +30,11 @@ public class MainWindow extends JFrame {
     private JTextField textField2;
     private JTextField textField3;
     private JTextField cementDensityJTextField;
+    private JTextField waterDensityJTextField;
+    private JTextField slurryWeightJTextField;
+    private JTextField slurryVolumeJTextField;
+    private JTextField waterVolumeSackJTextField;
+
     private JPanel cementComponentJPanel;
     private JPanel saltComponentsJPanel;
     private JPanel dryComponentsJPanel;
@@ -51,9 +60,11 @@ public class MainWindow extends JFrame {
     private JButton deleteRowLiquidButton;
     private JButton deleteRowDryButton;
     private JButton deleteRowSaltButton;
+    private static boolean buttonCount = true;
+
     private JScrollPane mainScrollPane;
     private JLabel slurryVolumeJLabel;
-    private JTextField waterDensityJTextField;
+
 
 
     ArrayList cementNames = new ArrayList();
@@ -154,6 +165,24 @@ public class MainWindow extends JFrame {
         return cementPrice;
     }
 
+
+    public JTextField getWaterDensityJTextField() {
+        return waterDensityJTextField;
+    }
+
+    public JTextField getSlurryWeightJTextField() {
+        return slurryWeightJTextField;
+    }
+
+    public JTextField getSlurryVolumeJTextField() {
+        return slurryVolumeJTextField;
+    }
+
+    public JTextField getWaterVolumeSackJTextField() {
+        return waterVolumeSackJTextField;
+    }
+
+
     public void removeSelectedRows(JTable table){
         DefaultTableModel model = (DefaultTableModel) table.getModel();
         int[] rows = table.getSelectedRows();
@@ -165,6 +194,9 @@ public class MainWindow extends JFrame {
     //Main design window with the JFrame controls implimented
     public MainWindow() {
 
+        Component c = tabbedPane1.getComponentAt(2);
+
+        tabbedPane1.remove(2);
         mainScrollPane.getVerticalScrollBar().setUnitIncrement(15);
         //sets EGI image icon
         URL EGIURL = MainWindow.class.getResource("/Images/PES Logo.png");
@@ -186,6 +218,28 @@ public class MainWindow extends JFrame {
 
         JTable cementComponentsJTable = new JTable(new DefaultTableModel(cementComponentData,cementComponentColumns)){
 
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
+
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
@@ -193,8 +247,9 @@ public class MainWindow extends JFrame {
                     return col >0;
             }
         };
-
-
+        
+        //saves the cell and stops editing when focus is clicked on another object
+        cementComponentsJTable.putClientProperty("terminateEditOnFocusLost", Boolean.TRUE);
 
 
         cementComponentsJTable.setShowGrid(true);
@@ -208,6 +263,8 @@ public class MainWindow extends JFrame {
         cementComponentJPanel.setLayout(new BorderLayout());
         cementComponentJPanel.add(cementComponentJScrollPane,BorderLayout.CENTER); //adds table to jpanel
         ExcelAdapter myCementAdapter = new ExcelAdapter(cementComponentsJTable); //allows excel copy/paste cells
+
+
 
         //Deletes the selected row
         deleteRowCementButton.addActionListener(new ActionListener() {
@@ -311,6 +368,28 @@ public class MainWindow extends JFrame {
         Object [][] saltComponentData = {{1,saltTypeComboBox,saltEditorComboBox,"","","","",""}};
         JTable saltComponentsJTable = new JTable(new DefaultTableModel(saltComponentData,saltComponentColumns)){
 
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
+
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
@@ -318,8 +397,8 @@ public class MainWindow extends JFrame {
             }
         };
 
-
-
+        //saves the cell and stops editing when focus is clicked on another object
+        saltComponentsJTable.putClientProperty("terminateEditOnFocusLost", Boolean.TRUE);
         saltComponentsJTable.setShowGrid(true);
 
         //Makes sure the jcombobox updates properly and updates if the mouse focus is on the combobox updates properly when importing or adding
@@ -420,6 +499,28 @@ public class MainWindow extends JFrame {
         Object [][] dryComponentData = {{1,dryEditorComboBox,"",dryUOMComboBox,"","",""}};
         JTable dryComponentsJTable = new JTable(new DefaultTableModel(dryComponentData,dryComponentColumns)){
 
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
+
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
@@ -427,6 +528,8 @@ public class MainWindow extends JFrame {
             }
         };
 
+        //saves the cell and stops editing when focus is clicked on another object
+        dryComponentsJTable.putClientProperty("terminateEditOnFocusLost", Boolean.TRUE);
         dryComponentsJTable.setShowGrid(true);
 
         //Makes sure the jcombobox updates properly and updates if the mouse focus is on the combobox updates properly when importing or adding
@@ -525,6 +628,28 @@ public class MainWindow extends JFrame {
         Object [][] liquidComponentData = {{1,liquidEditorComboBox,"",liquidUOMComboBox,"","",""}};
         JTable liquidComponentsJTable = new JTable(new DefaultTableModel(liquidComponentData,liquidComponentColumns)){
 
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
+
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
@@ -532,6 +657,8 @@ public class MainWindow extends JFrame {
             }
         };
 
+        //saves the cell and stops editing when focus is clicked on another object
+        liquidComponentsJTable.putClientProperty("terminateEditOnFocusLost", Boolean.TRUE);
         liquidComponentsJTable.setShowGrid(true);
 
         //Makes sure the jcombobox updates properly and updates if the mouse focus is on the combobox updates properly when importing or adding
@@ -624,9 +751,17 @@ public class MainWindow extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
+
                 SlurryCalculations sc = new SlurryCalculations(MainWindow.this,cementComponentsJTable,saltComponentsJTable,dryComponentsJTable,liquidComponentsJTable,Double.parseDouble(waterDensityJTextField.getText()),Double.parseDouble(cementDensityJTextField.getText()));
 
+                if (buttonCount == true) {
 
+
+                    tabbedPane1.addTab("Slurry Results",c);
+
+                    buttonCount = false;
+
+                }
             }
         });
 
@@ -634,7 +769,11 @@ public class MainWindow extends JFrame {
         //builds all the menus selected at the top of the application
         DropDownMenu menu = new DropDownMenu();
         menu.buildMenuBar(MainWindow.this, cementComponentsJTable, saltComponentsJTable,dryComponentsJTable,liquidComponentsJTable,
-                cementEditorComboBox,saltTypeComboBox,dryEditorComboBox,liquidEditorComboBox,saltEditorComboBox,dryEditorComboBox,liquidUOMComboBox);
+                cementEditorComboBox,saltTypeComboBox,dryEditorComboBox,liquidEditorComboBox,saltEditorComboBox,dryUOMComboBox,liquidUOMComboBox);
+
+
+
+
     }
 
 
