@@ -46,7 +46,7 @@ public class DatabaseComboBoxPopulator {
             //makes sure the previous selected comboboxes stay the same
             for(int i = 0;i<table.getRowCount();i++){
 
-                if(table.getRowCount() < 2 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Cement")){
+                if(i < 1 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Cement")){
 
                     previousComboNameSelections.add(combobox.getSelectedItem().toString());
                 }
@@ -107,7 +107,7 @@ public class DatabaseComboBoxPopulator {
             //makes sure the previous selected comboboxes stay the same
             for(int i = 0;i<table.getRowCount();i++){
 
-                if(table.getRowCount() < 2 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Salt")){
+                if(i < 1 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Salt")){
 
                     previousComboNameSelections.add(combobox.getSelectedItem().toString());
                     previousComboUOMSelection.add(comboboxUOM.getSelectedItem().toString());
@@ -148,7 +148,7 @@ public class DatabaseComboBoxPopulator {
             //makes sure the previous selected comboboxes stay the same
             for(int i = 0;i<table.getRowCount();i++){
 
-                if(table.getRowCount() < 2 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Dry Addative")){
+                if(i < 1 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Dry Addative")){
 
                     previousComboNameSelections.add(combobox.getSelectedItem().toString());
                     previousComboUOMSelection.add(comboboxUOM.getSelectedItem().toString());
@@ -190,7 +190,7 @@ public class DatabaseComboBoxPopulator {
             //makes sure the previous selected comboboxes stay the same
             for(int i = 0;i<table.getRowCount();i++){
 
-                if(table.getRowCount() < 2 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Liquid")){
+                if(i < 1 && combobox.getSelectedItem().toString().equalsIgnoreCase("Select Liquid")){
 
                     previousComboNameSelections.add(combobox.getSelectedItem().toString());
                     previousComboUOMSelection.add(comboboxUOM.getSelectedItem().toString());

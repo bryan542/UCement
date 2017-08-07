@@ -247,7 +247,7 @@ public class MainWindow extends JFrame {
                     return col >0;
             }
         };
-        
+
         //saves the cell and stops editing when focus is clicked on another object
         cementComponentsJTable.putClientProperty("terminateEditOnFocusLost", Boolean.TRUE);
 
@@ -752,15 +752,23 @@ public class MainWindow extends JFrame {
             public void actionPerformed(ActionEvent e) {
 
 
-                SlurryCalculations sc = new SlurryCalculations(MainWindow.this,cementComponentsJTable,saltComponentsJTable,dryComponentsJTable,liquidComponentsJTable,Double.parseDouble(waterDensityJTextField.getText()),Double.parseDouble(cementDensityJTextField.getText()));
+                TableFieldChecker tfc = new TableFieldChecker();
 
-                if (buttonCount == true) {
+                if(tfc.runInputCheck(cementDensityJTextField,waterDensityJTextField,cementComponentsJTable,dryComponentsJTable,liquidComponentsJTable)){
+
+                }
+                else{
+
+                    SlurryCalculations sc = new SlurryCalculations(MainWindow.this,cementComponentsJTable,saltComponentsJTable,dryComponentsJTable,liquidComponentsJTable,Double.parseDouble(waterDensityJTextField.getText()),Double.parseDouble(cementDensityJTextField.getText()));
+
+                    if (buttonCount == true) {
 
 
-                    tabbedPane1.addTab("Slurry Results",c);
+                        tabbedPane1.addTab("Slurry Results",c);
 
-                    buttonCount = false;
+                        buttonCount = false;
 
+                    }
                 }
             }
         });
