@@ -17,7 +17,12 @@ import java.io.FileWriter;
 import java.net.URL;
 import java.util.ArrayList;
 
+import com.qoppa.pdfWriter.DocumentInfo;
+import com.qoppa.pdfWriter.PDFDocument;
 import com.thehowtotutorial.splashscreen.JSplash;
+import jPDFWriterSamples.DataTablePrinter;
+import sun.applet.Main;
+
 /**
  * Created by Bryan on 7/13/2017.
  */
@@ -193,6 +198,7 @@ public class MainWindow extends JFrame {
 
     //Main design window with the JFrame controls implimented
     public MainWindow() {
+
 
         Component c = tabbedPane1.getComponentAt(2);
 
