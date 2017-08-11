@@ -7,46 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75781e61-b6b5-429c-a3fe-63b4392ef9c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Images/ProPetroLogo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/CementComponentAdder$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$10.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$11.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$12.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$13.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$14.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$16.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$17.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$18.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$19.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$2.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$20.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$21.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$23.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$24.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$25.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$26.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$26.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$27.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$28.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$28.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$29.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$29.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$3.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$30.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$4.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$5.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$6.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$7.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8$1.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$9.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow.class" afterPath="$PROJECT_DIR$/out/production/UCementProgram/Executable/MainWindow.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UCementProgram.iml" afterPath="$PROJECT_DIR$/UCementProgram.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Executable/MainWindow.java" afterPath="$PROJECT_DIR$/src/Executable/MainWindow.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,53 +28,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDFTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Executable/PDFTest.java">
+      <file leaf-file-name="PDFReportGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Executable/PDFReportGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+            <state relative-caret-position="389">
+              <caret line="194" column="39" lean-forward="false" selection-start-line="194" selection-start-column="39" selection-end-line="194" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#getSaveLocation#0;class#PDFTest#0" expanded="false" />
-                <element signature="method#getScaledInstance#0;class#PDFTest#0" expanded="false" />
+                <element signature="method#getSaveLocation#0;class#PDFReportGenerator#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PES Logo.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Images/PES Logo.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextPrinter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/jPDFWriter/psamples.jar!/jPDFWriterSamples/TextPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataTablePrinter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/jPDFWriter/psamples.jar!/jPDFWriterSamples/DataTablePrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDFPrinterJob.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/jPDFWriter/jPDFWriter.jar!/com/qoppa/pdfWriter/PDFPrinterJob.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2740">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -133,26 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDFGraphics.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/jPDFWriter/jPDFWriter.jar!/com/qoppa/pdfWriter/PDFGraphics.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDFDocument.class" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/jPDFWriter/jPDFWriter.jar!/com/qoppa/pdfWriter/PDFDocument.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="124" column="35" lean-forward="false" selection-start-line="124" selection-start-column="35" selection-end-line="124" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -220,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/Executable/DatabaseComboBoxPopulator.java" />
         <option value="$PROJECT_DIR$/src/Executable/MainWindow.java" />
         <option value="$PROJECT_DIR$/src/Executable/PDFTest.java" />
+        <option value="$PROJECT_DIR$/src/Executable/PDFReportGenerator.java" />
       </list>
     </option>
   </component>
@@ -338,6 +242,9 @@
     <property name="SearchEverywhereHistoryKey" value="documentinfo&#9;PSI&#9;JAVA://com.qoppa.pdfWriter.DocumentInfo&#10;stopcell&#9;PSI&#9;JAVA://javax.swing.DefaultCellEditor.EditorDelegate#stopCellEditing" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\UCementProgram\src\Images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\UCementProgram\src\Images" />
     </key>
@@ -354,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PDFTest">
+  <component name="RunManager" selected="Application.PDFReportGenerator">
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -393,14 +300,14 @@
       <module name="UCementProgram" />
       <envs />
     </configuration>
-    <configuration name="PDFTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PDFReportGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Executable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Executable.PDFTest" />
+      <option name="MAIN_CLASS_NAME" value="Executable.PDFReportGenerator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -496,11 +403,11 @@
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.MainWindow" />
       <item index="1" class="java.lang.String" itemvalue="Application.HelloWorld" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PDFTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PDFReportGenerator" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.PDFTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PDFReportGenerator" />
         <item index="1" class="java.lang.String" itemvalue="Application.MainWindow" />
         <item index="2" class="java.lang.String" itemvalue="Application.HelloWorld" />
       </list>
@@ -520,10 +427,19 @@
       <option name="presentableId" value="Default" />
       <updated>1501366296365</updated>
     </task>
+    <task id="LOCAL-00001" summary="PDF File Tester">
+      <created>1502400148457</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1502400148457</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -538,7 +454,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2468017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2468017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -556,6 +472,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PDF File Tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="PDF File Tester" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -569,7 +489,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="33" />
+      <option name="time" value="42" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -582,15 +502,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11696">
-          <caret line="688" column="0" lean-forward="false" selection-start-line="688" selection-start-column="0" selection-end-line="688" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -878,9 +789,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Images/PES Logo.png">
+    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="204" column="30" lean-forward="false" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Images/ProPetroLogo.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/javax/swing/ImageIcon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="216" column="0" lean-forward="false" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+          <folding>
+            <element signature="e#6758#6759#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/jPDFWriter/psamples.jar!/jPDFWriterSamples/TextPrinter.java">
@@ -891,22 +820,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/MainWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="204" column="30" lean-forward="false" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/Images/PES Logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Executable/PDFTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Executable/PDFReportGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="42" column="62" lean-forward="false" selection-start-line="42" selection-start-column="62" selection-end-line="42" selection-end-column="62" />
+        <state relative-caret-position="389">
+          <caret line="194" column="39" lean-forward="false" selection-start-line="194" selection-start-column="39" selection-end-line="194" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#getSaveLocation#0;class#PDFTest#0" expanded="false" />
-            <element signature="method#getScaledInstance#0;class#PDFTest#0" expanded="false" />
+            <element signature="method#getSaveLocation#0;class#PDFReportGenerator#0" expanded="false" />
           </folding>
         </state>
       </provider>
