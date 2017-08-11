@@ -28,22 +28,45 @@ import sun.applet.Main;
  */
 public class MainWindow extends JFrame {
 
+    private JTabbedPane tabbedPane1;
 
     private JPanel mainPanel;
-    private JTabbedPane tabbedPane1;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JTextField textField3;
+    private JPanel cementComponentJPanel;
+    private JPanel saltComponentsJPanel;
+    private JPanel dryComponentsJPanel;
+    private JPanel liquidComponentsJPanel;
+
+
     private JTextField cementDensityJTextField;
     private JTextField waterDensityJTextField;
     private JTextField slurryWeightJTextField;
     private JTextField slurryVolumeJTextField;
     private JTextField waterVolumeSackJTextField;
+    private JTextField wellNameJTextField;
+    private JTextField companyJTextField;
+    private JTextField depthTVDJTextField;
+    private JTextField countyJTextField;
+    private JTextField townshipJTextField;
+    private JTextField wellAPIJTextField;
+    private JTextField fieldJTextField;
+    private JTextField proposalNumberJTextField;
+    private JTextField depthMDJTextField;
+    private JTextField casingSizeJTextField;
+    private JTextField tubingSizeJTextField;
+    private JTextField holeRadiusJTextField;
+    private JTextField dateJTextField;
+    private JTextField stateJTextField;
+    private JTextField mudWeightJTextField;
+    private JTextField temperatureGradientJTextField;
+    private JTextField BHSTResultJTextField;
+    private JTextField BHCTResultJTextField;
+    private JTextField initialPressureResultJTextField;
+    private JTextField finalPressureResultJTextField;
+    private JTextField timeToBHCTResultJTextField;
+    private JTextField pumpTimeResultJTextField;
 
-    private JPanel cementComponentJPanel;
-    private JPanel saltComponentsJPanel;
-    private JPanel dryComponentsJPanel;
-    private JPanel liquidComponentsJPanel;
+
+
     private JButton addRowCementButton;
     private JButton addSaltComponentButton;
     private JButton addDryComponentButton;
@@ -69,6 +92,9 @@ public class MainWindow extends JFrame {
 
     private JScrollPane mainScrollPane;
     private JLabel slurryVolumeJLabel;
+
+
+    private JComboBox jobTypeJComboBox;
 
 
 
@@ -187,6 +213,98 @@ public class MainWindow extends JFrame {
         return waterVolumeSackJTextField;
     }
 
+    public JTextField getCementDensityJTextField() {
+        return cementDensityJTextField;
+    }
+
+    public JTextField getWellNameJTextField() {
+        return wellNameJTextField;
+    }
+
+    public JTextField getCompanyJTextField() {
+        return companyJTextField;
+    }
+
+    public JTextField getDepthTVDJTextField() {
+        return depthTVDJTextField;
+    }
+
+    public JTextField getCountyJTextField() {
+        return countyJTextField;
+    }
+
+    public JTextField getTownshipJTextField() {
+        return townshipJTextField;
+    }
+
+    public JTextField getWellAPIJTextField() {
+        return wellAPIJTextField;
+    }
+
+    public JTextField getFieldJTextField() {
+        return fieldJTextField;
+    }
+
+    public JTextField getProposalNumberJTextField() {
+        return proposalNumberJTextField;
+    }
+
+    public JTextField getDepthMDJTextField() {
+        return depthMDJTextField;
+    }
+
+    public JTextField getCasingSizeJTextField() {
+        return casingSizeJTextField;
+    }
+
+    public JTextField getTubingSizeJTextField() {
+        return tubingSizeJTextField;
+    }
+
+    public JTextField getHoleRadiusJTextField() {
+        return holeRadiusJTextField;
+    }
+
+    public JTextField getDateJTextField() {
+        return dateJTextField;
+    }
+
+    public JTextField getStateJTextField() {
+        return stateJTextField;
+    }
+
+    public JTextField getMudWeightJTextField() {
+        return mudWeightJTextField;
+    }
+
+    public JTextField getTemperatureGradientJTextField() {
+        return temperatureGradientJTextField;
+    }
+
+    public JTextField getBHSTResultJTextField() {
+        return BHSTResultJTextField;
+    }
+
+    public JTextField getBHCTResultJTextField() {
+        return BHCTResultJTextField;
+    }
+
+    public JTextField getInitialPressureResultJTextField() {
+        return initialPressureResultJTextField;
+    }
+
+    public JTextField getFinalPressureResultJTextField() {
+        return finalPressureResultJTextField;
+    }
+
+    public JTextField getTimeToBHCTResultJTextField() {
+        return timeToBHCTResultJTextField;
+    }
+
+    public JTextField getPumpTimeResultJTextField() {
+        return pumpTimeResultJTextField;
+    }
+
 
     public void removeSelectedRows(JTable table){
         DefaultTableModel model = (DefaultTableModel) table.getModel();
@@ -210,7 +328,12 @@ public class MainWindow extends JFrame {
         Image EGIImage = EGIImageIcon.getImage();
         MainWindow.this.setIconImage(EGIImage);
 
+        //populated the combobox
+        String[] jobTypeItems = {"Surface","Lead","Tail","Plug"};
+        for(int i = 0;i<jobTypeItems.length;i++){
 
+            jobTypeJComboBox.addItem(jobTypeItems[i]);
+        }
 
         String[] cementItems = {"Select Cement"};
         //JTable column names
