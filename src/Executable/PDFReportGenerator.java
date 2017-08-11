@@ -153,6 +153,7 @@ public class PDFReportGenerator {
         return filename;
     }
 
+    //resizes the logo image
     public BufferedImage resizedBufferedImage(URL url, double resizeWidthRatio, double resizeHeightRatio){
 
 
@@ -169,7 +170,7 @@ public class PDFReportGenerator {
 
     }
 
-    //resizes the logo image
+    //scaling tool
     public static BufferedImage scale(BufferedImage sbi, int imageType, int dWidth, int dHeight, double fWidth, double fHeight) {
         BufferedImage dbi = null;
         if(sbi != null) {
@@ -182,7 +183,7 @@ public class PDFReportGenerator {
     }
 
 
-
+    //The items here are to be displayed on every page generated
     public void reocurringPageItemsSetter(PDFDocument pdfDoc, BufferedImage bufferedLogo, double resizeWidthRatio, double resizeHeightRatio, double pageWidth, double pageHeight, int marginBottom, int marginTop, int marginLeft, int marginRight){
 
         int pageCount = pdfDoc.getPageCount();

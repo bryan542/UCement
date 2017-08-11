@@ -4,10 +4,12 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
+import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.EventObject;
 
 public class LiquidComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -24,26 +26,43 @@ public class LiquidComponentAdder extends JDialog {
         ArrayList previousComboUOM = new ArrayList();
 
         //JTable column names
-        String[] liquidAdderComponentColumns = {"Index","Liquid Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
-        String[] liquidAdderComponentItems = {"Gal/Sack"};
-        JComboBox liquidAdderUOMEditorComboBox = new JComboBox(liquidAdderComponentItems);
-        Object [][] liquidAdderComponentData = {{1,"","",liquidAdderUOMEditorComboBox,"","",""}};
+        String[] liquidAdderComponentColumns = {"Index","Liquid Component","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
+
+        Object [][] liquidAdderComponentData = {{1,"","","",""}};
 
         JTable liquidAdderComponentsJTable = new JTable(new DefaultTableModel(liquidAdderComponentData,liquidAdderComponentColumns)){
+
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
 
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
-                if (col >0) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return col >0;
             }
         };
 
         //Adds the table to the jscrollpane and builds the data/cell editing options
-        TableDialogSetup tds = new TableDialogSetup(mainJPanel, liquidAdderComponentsJTable, liquidAdderComponentItems,"liquid");
+        TableDialogSetup tds = new TableDialogSetup(mainJPanel, liquidAdderComponentsJTable);
 
         applyButton.addActionListener(new ActionListener() {
             @Override
@@ -75,9 +94,9 @@ public class LiquidComponentAdder extends JDialog {
 
                     mainComboBox.addItem(liquidAdderComponentsJTable.getValueAt(i,1).toString());
                     mw.getLiquidNames().add(liquidAdderComponentsJTable.getValueAt(i,1).toString());
-                    mw.getLiquidAbsVolume().add(liquidAdderComponentsJTable.getValueAt(i,4));
-                    mw.getLiquidBulkWeight().add(liquidAdderComponentsJTable.getValueAt(i,5));
-                    mw.getLiquidPrice().add(liquidAdderComponentsJTable.getValueAt(i,6));
+                    mw.getLiquidAbsVolume().add(liquidAdderComponentsJTable.getValueAt(i,2));
+                    mw.getLiquidBulkWeight().add(liquidAdderComponentsJTable.getValueAt(i,3));
+                    mw.getLiquidPrice().add(liquidAdderComponentsJTable.getValueAt(i,4));
 
                 }
 

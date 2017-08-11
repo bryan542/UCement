@@ -4,9 +4,11 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
+import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.EventObject;
 
 public class DryComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -24,26 +26,43 @@ public class DryComponentAdder extends JDialog {
         ArrayList previousComboUOM = new ArrayList();
 
         //JTable column names
-        String[] dryAdderComponentColumns = {"Index","Dry Component","Concentration","UOM","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
-        String[] dryAdderComponentItems = {"%BWOC","LBS/Sack","%BWOW"};
-        JComboBox dryAdderUOMEditorComboBox = new JComboBox(dryAdderComponentItems);
-        Object [][] dryAdderComponentData = {{1,"","",dryAdderUOMEditorComboBox,"","",""}};
+        String[] dryAdderComponentColumns = {"Index","Dry Component","Absolute Volume lbs/gal","Bulk Weight lbs/cuft","$ Cost/lb"};
+
+        Object [][] dryAdderComponentData = {{1,"","","",""}};
 
         JTable dryAdderComponentsJTable = new JTable(new DefaultTableModel(dryAdderComponentData,dryAdderComponentColumns)){
+
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
 
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
-                if (col >0) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return col >0;
             }
         };
 
         //Adds the table to the jscrollpane and builds the data/cell editing options
-        TableDialogSetup tds = new TableDialogSetup(mainJPanel, dryAdderComponentsJTable, dryAdderComponentItems,"Dry");
+        TableDialogSetup tds = new TableDialogSetup(mainJPanel, dryAdderComponentsJTable);
 
         applyButton.addActionListener(new ActionListener() {
             @Override
@@ -74,9 +93,9 @@ public class DryComponentAdder extends JDialog {
 
                     mainComboBox.addItem(dryAdderComponentsJTable.getValueAt(i,1));
                     mw.getDryNames().add(dryAdderComponentsJTable.getValueAt(i,1));
-                    mw.getDryAbsVolume().add(dryAdderComponentsJTable.getValueAt(i,4));
-                    mw.getDryBulkWeight().add(dryAdderComponentsJTable.getValueAt(i,5));
-                    mw.getDryPrice().add(dryAdderComponentsJTable.getValueAt(i,6));
+                    mw.getDryAbsVolume().add(dryAdderComponentsJTable.getValueAt(i,2));
+                    mw.getDryBulkWeight().add(dryAdderComponentsJTable.getValueAt(i,3));
+                    mw.getDryPrice().add(dryAdderComponentsJTable.getValueAt(i,4));
 
 
                 }

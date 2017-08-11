@@ -12,7 +12,7 @@ public class TableFieldChecker {
 
 
         //return true of all conditions are satisfied in runInputChecker
-        boolean checkResult = true;
+        boolean checkResult = false;
         double cementRowSums = 0;
 
         try {
@@ -22,7 +22,7 @@ public class TableFieldChecker {
             } else {
 
                 JOptionPane.showMessageDialog(new JDialog(), "Cement Density: Enter non-negative value.");
-                return checkResult = false;
+                return checkResult = true;
 
             }
 
@@ -30,7 +30,7 @@ public class TableFieldChecker {
         } catch (NumberFormatException e) {
 
             JOptionPane.showMessageDialog(new JDialog(), "Cement Density: :Enter a valid number value.");
-            return checkResult = false;
+            return checkResult = true;
 
         }
         try {
@@ -40,7 +40,7 @@ public class TableFieldChecker {
             } else {
 
                 JOptionPane.showMessageDialog(new JDialog(), "Water Density: Enter non-negative value.");
-                return checkResult = false;
+                return checkResult = true;
 
             }
 
@@ -48,7 +48,7 @@ public class TableFieldChecker {
         } catch (NumberFormatException e) {
 
             JOptionPane.showMessageDialog(new JDialog(), "Water Density: :Enter a valid number value.");
-            return checkResult = false;
+            return checkResult = true;
 
         }
 
@@ -62,7 +62,7 @@ public class TableFieldChecker {
             catch (NumberFormatException e) {
 
                 JOptionPane.showMessageDialog(new JDialog(), cementTable.getValueAt(i,1).toString() + ":Enter a valid number value.");
-                checkResult = false;
+                checkResult = true;
                 break;
             }
 
@@ -71,7 +71,7 @@ public class TableFieldChecker {
         if((int) cementRowSums != 100){
 
             JOptionPane.showMessageDialog(new JDialog(), "Cement Table: Cement Sums must equal 100%");
-            return checkResult = false;
+            return checkResult = true;
 
         }
 
@@ -86,7 +86,7 @@ public class TableFieldChecker {
                 } else {
 
                     JOptionPane.showMessageDialog(new JDialog(), dryTable.getValueAt(i,1) + ": Enter non-negative value.");
-                    checkResult = false;
+                    checkResult = true;
                     break;
                 }
 
@@ -94,7 +94,7 @@ public class TableFieldChecker {
             } catch (NumberFormatException e) {
 
                 JOptionPane.showMessageDialog(new JDialog(), dryTable.getValueAt(i,1) + ":Enter a valid number value.");
-                checkResult = false;
+                checkResult = true;
                 break;
             }
 
@@ -111,7 +111,7 @@ public class TableFieldChecker {
                 } else {
 
                     JOptionPane.showMessageDialog(new JDialog(), liquidTable.getValueAt(i,1) + ": Enter non-negative value.");
-                    checkResult = false;
+                    checkResult = true;
                     break;
                 }
 
@@ -119,7 +119,7 @@ public class TableFieldChecker {
             } catch (NumberFormatException e) {
 
                 JOptionPane.showMessageDialog(new JDialog(), liquidTable.getValueAt(i,1) + ":Enter a valid number value.");
-                checkResult = false;
+                checkResult = true;
                 break;
             }
         }

@@ -47,7 +47,9 @@ public class ProjectSave {
                 //Have to reinitialize the array each time
                 List<String> stringList = new ArrayList<>();
 
-
+                //makes sure that lines keep being added and the array is filled
+                //when a project is loaded, -1 means ignore the line when reading and the database combobox section
+                //is already filled
                 if (i >= mw.getCementNames().size()){
                     stringList.add("-1");
                     stringList.add("-1");
@@ -84,7 +86,7 @@ public class ProjectSave {
                     stringList.add("-1");
                     stringList.add("-1");
                     stringList.add("-1");
-                    stringList.add("-1");
+
                 }
                 else{
 
@@ -98,7 +100,7 @@ public class ProjectSave {
                     stringList.add("-1");
                     stringList.add("-1");
                     stringList.add("-1");
-                    stringList.add("-1");
+
                 }
                 else{
 

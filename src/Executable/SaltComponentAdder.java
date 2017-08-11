@@ -4,9 +4,11 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
+import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.EventObject;
 
 public class SaltComponentAdder extends JDialog {
     private JPanel contentPane;
@@ -30,14 +32,32 @@ public class SaltComponentAdder extends JDialog {
 
         JTable saltAdderComponentsJTable = new JTable(new DefaultTableModel(saltAdderComponentData,saltAdderComponentColumns)){
 
+            //Selects the whole cell when the user edits and allows for overwriting
+            @Override // Always selectAll()
+            public boolean editCellAt(int row, int column, EventObject e) {
+                boolean result = super.editCellAt(row, column, e);
+                final Component editor = getEditorComponent();
+                if (editor == null || !(editor instanceof JTextComponent)) {
+                    return result;
+                }
+                if (e instanceof MouseEvent) {
+                    EventQueue.invokeLater(new Runnable() {
+
+                        @Override
+                        public void run() {
+                            ((JTextComponent) editor).selectAll();
+                        }
+                    });
+                } else {
+                    ((JTextComponent) editor).selectAll();
+                }
+                return result;
+            }
+
             //Prevents the user from changing cells that will be populated form the databae when a dropdown item
             //is selected or when the calculation is done.
             public boolean isCellEditable(int row, int col) {
-                if (col >0) {
-                    return true;
-                } else {
-                    return false;
-                }
+                return col >0;
             }
         };
 
