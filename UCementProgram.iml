@@ -34,6 +34,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" exported="" name="jPDFWriter1" level="project" />
+    <orderEntry type="library" name="jPDFWriter" level="project" />
   </component>
 </module>

@@ -1,27 +1,15 @@
 package Executable;
 
 import javax.swing.*;
-import javax.swing.event.ListSelectionEvent;
-import javax.swing.event.ListSelectionListener;
 import javax.swing.table.*;
 import javax.swing.text.JTextComponent;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.BufferedWriter;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Arrays;
 import java.util.EventObject;
-import java.util.List;
-import java.io.FileWriter;
 import java.net.URL;
 import java.util.ArrayList;
 
-import com.qoppa.pdfWriter.DocumentInfo;
-import com.qoppa.pdfWriter.PDFDocument;
 import com.thehowtotutorial.splashscreen.JSplash;
-import jPDFWriterSamples.DataTablePrinter;
-import sun.applet.Main;
 
 /**
  * Created by Bryan on 7/13/2017.
@@ -51,8 +39,8 @@ public class MainWindow extends JFrame {
     private JTextField fieldJTextField;
     private JTextField proposalNumberJTextField;
     private JTextField depthMDJTextField;
-    private JTextField casingSizeJTextField;
-    private JTextField tubingSizeJTextField;
+    private JTextField casingODJTextField;
+    private JTextField tubingODJTextField;
     private JTextField holeRadiusJTextField;
     private JTextField dateJTextField;
     private JTextField stateJTextField;
@@ -64,7 +52,10 @@ public class MainWindow extends JFrame {
     private JTextField finalPressureResultJTextField;
     private JTextField timeToBHCTResultJTextField;
     private JTextField pumpTimeResultJTextField;
-
+    private JTextField casingIDJTextField;
+    private JTextField tubingIDJTextField;
+    private JTextField casingWeightJTextField;
+    private JTextField tubingWeightJTextField;
 
 
     private JButton addRowCementButton;
@@ -88,6 +79,10 @@ public class MainWindow extends JFrame {
     private JButton deleteRowLiquidButton;
     private JButton deleteRowDryButton;
     private JButton deleteRowSaltButton;
+    private JButton selectCasingSizeButton;
+    private JButton selectTubingSizeButton;
+
+
     private static boolean buttonCount = true;
 
     private JScrollPane mainScrollPane;
@@ -95,6 +90,7 @@ public class MainWindow extends JFrame {
 
 
     private JComboBox jobTypeJComboBox;
+
 
 
 
@@ -253,12 +249,12 @@ public class MainWindow extends JFrame {
         return depthMDJTextField;
     }
 
-    public JTextField getCasingSizeJTextField() {
-        return casingSizeJTextField;
+    public JTextField getCasingODJTextField() {
+        return casingODJTextField;
     }
 
-    public JTextField getTubingSizeJTextField() {
-        return tubingSizeJTextField;
+    public JTextField getTubingODJTextField() {
+        return tubingODJTextField;
     }
 
     public JTextField getHoleRadiusJTextField() {
@@ -305,6 +301,56 @@ public class MainWindow extends JFrame {
         return pumpTimeResultJTextField;
     }
 
+    public JTextField getCasingIDJTextField() {
+        return casingIDJTextField;
+    }
+
+    public JTextField getTubingIDJTextField() {
+        return tubingIDJTextField;
+    }
+
+    public JTextField getCasingWeightJTextField() {
+        return casingWeightJTextField;
+    }
+
+    public JTextField getTubingWeightJTextField() {
+        return tubingWeightJTextField;
+    }
+
+
+
+
+    double casingSizeID = -1;
+    double casingSizeOD = -1;
+    double casingSizeWeight = -1;
+    double tubingSizeID = -1;
+    double tubingSizeOD = -1;
+    double tubingSizeWeight = -1;
+
+
+    public double getCasingSizeID() {
+        return casingSizeID;
+    }
+
+    public double getCasingSizeOD() {
+        return casingSizeOD;
+    }
+
+    public double getCasingSizeWeight() {
+        return casingSizeWeight;
+    }
+
+    public double getTubingSizeID() {
+        return tubingSizeID;
+    }
+
+    public double getTubingSizeOD() {
+        return tubingSizeOD;
+    }
+
+    public double getTubingSizeWeight() {
+        return tubingSizeWeight;
+    }
 
     public void removeSelectedRows(JTable table){
         DefaultTableModel model = (DefaultTableModel) table.getModel();
@@ -316,6 +362,8 @@ public class MainWindow extends JFrame {
 
     //Main design window with the JFrame controls implimented
     public MainWindow() {
+
+
 
 
         Component c = tabbedPane1.getComponentAt(2);
@@ -334,6 +382,15 @@ public class MainWindow extends JFrame {
 
             jobTypeJComboBox.addItem(jobTypeItems[i]);
         }
+
+        casingODJTextField.setEditable(false);
+        casingIDJTextField.setEditable(false);
+        casingWeightJTextField.setEditable(false);
+        tubingIDJTextField.setEditable(false);
+        tubingODJTextField.setEditable(false);
+        tubingWeightJTextField.setEditable(false);
+
+
 
         String[] cementItems = {"Select Cement"};
         //JTable column names
@@ -909,8 +966,14 @@ public class MainWindow extends JFrame {
                 cementEditorComboBox,saltTypeComboBox,dryEditorComboBox,liquidEditorComboBox,saltEditorComboBox,dryUOMComboBox,liquidUOMComboBox);
 
 
+        selectCasingSizeButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
-
+                CasingSizeJDialog csd = new CasingSizeJDialog(MainWindow.this);
+                csd.initialize();
+            }
+        });
     }
 
 

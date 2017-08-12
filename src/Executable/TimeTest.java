@@ -76,7 +76,7 @@ public class TimeTest {
         return (int) Math.round(finalPressure);
     }
 
-    
+
     public static void main(String[] args) {
         TimeTest tt = new TimeTest();
     }
